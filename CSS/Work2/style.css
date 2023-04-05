@@ -1,0 +1,44 @@
+.logo{
+    text-align: center;
+}
+
+.searchbackandin {
+    background-color: rgba(141, 141, 141, 0.26);
+    height: 65px;
+    width: auto;
+    text-align: center;
+}
+
+.boxes {
+    margin: 3px 0px 3px 0px;
+}
+
+.leftbox {
+    background-color: rgba(8, 246, 170, 0.26);
+    height: 85px;
+    width: 575px;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.rightbox {
+    background-color: rgba(8, 246, 170, 0.26);
+    height: 85px;
+    width: 600px;
+    float: right;
+    margin-right: 0px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.centerbox {
+    background-color: rgba(36, 109, 102, 0.26);
+    height: 85px;
+    width: 339px;
+    float: left;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: center;
+    padding-top: 5px;
+}
