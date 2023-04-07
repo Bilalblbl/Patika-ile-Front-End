@@ -1,0 +1,108 @@
+.header {
+    text-align: center;
+    padding: 50px;
+    list-style-type: none;
+    
+}
+
+.lis-header {
+    margin:23px 0px 23px  0px; 
+}
+
+.lis-header a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.lis-header a:hover {
+    text-decoration: underline;
+}
+
+.menu{
+    text-align: center;
+}
+
+.search { 
+    width: 480px;
+    height: 44px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: auto;
+    border-style: solid; 
+    border-width: 1px;
+    border-color: 	#a9a9a9
+}
+
+.search:hover {
+    box-shadow: 0 1px 5px -1px #666;
+}
+
+.inputstyle{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.input-area {
+    color: transparent;
+    flex: -150%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 10px;
+    height: 34px !important;
+    display: block;
+  }
+
+  .input {
+    color: rgba(0, 0, 0, 0.87);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -18px;
+    font: 16px arial, sans-serif;
+    height: 34px;
+    text-transform: none;
+    text-indent: 1px;
+    text-shadow: none;
+  }
+
+
+  button{
+    width: 130px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .button:hover {
+    border-radius: 0%;
+    background-color: #67676743;
+    box-shadow: 0 1px 5px -1px #666;
+}
+
+.flooter {
+    background-color: #f2f2f2 ;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 18px;
+}
+
+.ft {
+    margin: 0 15px 0 5px;
+    color: #666666;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.ft.sag{
+    float: right;
+    margin: 0 25px 0 0 ;    
+}
